@@ -1,0 +1,122 @@
+.product_img{
+    height: 500px;
+    width: 400px;
+    background-image: url(img/lada_expo_100.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+}
+
+.main_div{
+    display: flex;
+    justify-content: left;
+}
+
+.right_side{
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 40px;
+    border-bottom: solid rgb(212, 212, 212) 2px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+main{
+    padding-top: calc(7em + 20px);
+}
+
+.product_description{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid rgb(235, 235, 235) 1px;
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.023));
+    max-width: 600px;
+}
+
+.product_description p{
+    font-size: 20px;
+}
+
+.edit{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid rgb(235, 235, 235) 1px;
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.023));
+    transition: 0.3s;
+}
+
+.edit:hover{
+    transform: scale(1.06);
+}
+
+.proportions{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid rgb(235, 235, 235) 1px;
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.023));
+}
+
+.proportions p{
+    font-size: 20px;
+    border-bottom: solid rgb(235, 235, 235) 1px;
+}
+
+.proportions p span{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+@keyframes animation_child_div {
+    0%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+
+    100%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+}
+
+@media (max-width: 425px){
+    @keyframes animation_child_div {
+        0%{
+    
+        }
+    
+        50%{
+            top: 35%;
+            left: 50%;
+            width: 50%;
+            margin-left: -25%;
+        }
+    
+        100%{
+            top: 10px;
+            width: 200px;
+            right: 30px;
+        }
+    }
+}

@@ -1,0 +1,254 @@
+.a_logo img{
+    width: 300px;
+}
+
+body header{
+    background-color: rgba(255, 255, 255, 0.819);;
+}
+
+li{
+    list-style-type: none;
+}
+
+.a_logo{
+    display: inline-block;
+    margin-left: calc(50% - 220px);
+}
+
+body{
+    padding-top: 7em;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.montage{
+    margin-top: 30px;
+    color: rgb(20, 20, 20);
+    font-size: 60px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .1s;
+    margin-bottom: 20px;
+}
+
+.montage:hover{
+    color: rgb(69, 69, 69);
+    transform: scale(1.01);
+    cursor:default;
+    border-bottom: 2px solid rgb(69, 69, 69);
+}
+
+.montage_order h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.montage_order{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 305px;
+    transition: .3s;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    display: inline-block;
+    border: solid 1px rgb(207, 207, 207);
+}
+
+.montage_order:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.125);
+}
+
+.montage_order a{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: rgb(40, 40, 40);
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.order_image_div{
+    transition: .2s;
+    background-image: url(img/3d_model_example.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.order_image_div:hover{
+    transform: scale(0.99);
+}
+
+.order_start, .order_final{
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 3px;
+}
+
+.order_final span{
+    font-weight: 400;
+}
+
+.order_start span{
+    font-weight: 400;
+}
+
+.order_final{
+    border-bottom: solid 2px rgb(197, 197, 197);
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+}
+
+.order_location, .order_tel, .order_email{
+    font-size: 17px;
+}
+
+.montage_orders{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 24%);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.order_products{
+    font-weight: 500;
+    border-top: solid 2px rgb(197, 197, 197);
+    font-size: 25px;
+    margin-top: 7px;
+    padding-top: 7px;
+}
+
+.products_ul{
+    margin-left: 20px;
+}
+
+.products_ul li{
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: disc;
+}
+
+body{
+    animation-name: body;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.date_create{
+    margin-top: 10px;
+    font-size: 18px;
+    padding-bottom: 3px;
+    border-bottom: solid 2px rgb(197, 197, 197);
+}
+
+.date_end{
+    margin-top: 3px;
+    font-size: 18px; 
+}
+
+.button_history_div{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.history_of_all_orders_button{
+    transition: 0.5s;
+    font-size: 30px;
+    padding: 0 50px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.125);
+    border-radius: 3px;
+    display: inline-block;
+    border: solid 1px rgb(207, 207, 207);
+}
+
+.history_of_all_orders_button:hover{
+    transform: scale(1.05);
+}
+
+.input_ready_to_go_div{
+    display: flex;
+    align-items: center;
+}
+
+.input_ready_to_go_div p{
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.input_ready_to_go_div input{
+    width: 15px;
+    height: 15px;
+}
+
+@keyframes body {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1528px){
+    .montage_orders{
+        grid-template-columns: repeat(auto-fill, 32%);
+    }
+}
+
+@media (max-width: 1029px){
+    .montage_orders{
+        grid-template-columns: repeat(auto-fill, 48%);
+    }
+}
+
+@media (max-width: 664px){
+    .montage_orders{
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+
+    .a_logo{
+        margin-left: calc(50% - 195px);
+    }
+
+    .a_logo img{
+        width: 250px;
+    }
+}
+
+@media (max-width: 659px){
+    .montage_orders{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px){
+    .a_logo{
+        margin-left: 0;
+    }
+
+    .a_logo img{
+        width: 200px;
+    }
+
+    header .burger_menu {
+        margin-left: 0;
+        width: 40px;
+    }
+
+    body header{
+        justify-content: space-around;
+    }
+}

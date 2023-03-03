@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    transition: .1s;
+}
+
+button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    animation-name: body;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.form_div{
+    margin-top: 5%;
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.249);
+}
+
+.logo{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(50, 50, 50);
+    margin-bottom: 15px;
+}
+
+input{
+    font-weight: 100;
+    outline: none;
+    width: 500px;
+    font-size: 25px;
+    padding: 10px;
+    border: solid 1px rgb(176, 176, 176);
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    color: rgb(216, 216, 216);
+    font-size: 20px;
+}
+
+.login_button{
+    transition: .7s;
+    margin-top: 20px;
+    width: 500px;
+    border: solid 1px rgb(176, 176, 176);
+    border-radius: 2px;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 8px;
+}
+
+.login_button:hover{
+    transform: scale(1.05);
+    background-color: rgb(176, 176, 176);
+}
+
+p{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 500px;
+    color: rgb(131, 131, 131);
+}
+
+.div_password{
+    position: relative;
+}
+
+.hide_view{
+    transition: .2s;
+    width: 27px;
+    height: 27px;
+    background-image: url(img/hide.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.view{
+    background-image: url(img/view.png);
+}
+
+@keyframes body {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

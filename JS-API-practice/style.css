@@ -1,0 +1,25 @@
+.card{
+    height: 100%;
+}
+
+body{
+    padding: 20px;
+}
+
+h5{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.neighbor_card{
+    transform: scale(0.8);
+}
+
+.headText{
+    background-color: rgb(201, 201, 201);
+    margin-bottom: 0;
+    padding: 8px;
+}

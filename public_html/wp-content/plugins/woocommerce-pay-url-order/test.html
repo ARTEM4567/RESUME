@@ -1,0 +1,22 @@
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' id='jquery-core-js'></script>
+<a id="misha_button">sd</a>
+<script>
+jQuery(function($){
+	$('#misha_button').click(function(){
+		$.ajax({
+			url: 'https://fialka.black/wp-admin/admin-ajax.php',
+			type: 'POST',
+			data: 'action=RequestCreateOrderType&price=2&email=am@mail.ru&phone=31554356&payment_method=coderun_yandexnoip', // можно также передать в виде массива или объекта
+			beforeSend: function( xhr ) {
+				$('#misha_button').text('Загрузка, 5 сек...');	
+			},
+			success: function( data ) {
+				$('#misha_button').text('Отправить');	
+				console.log( data );
+			}
+		});
+		// если элемент – ссылка, то не забываем:
+		// return false;
+	});
+});
+</script>

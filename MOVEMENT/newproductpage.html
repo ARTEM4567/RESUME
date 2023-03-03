@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="newproductpage.css">
+    <script defer src="mainpage.js"></script>
+    <title>Movement staff</title>
+</head>
+<body>
+    <div class="welocme_animation_child_div">
+        <a class="animation_link" href="mainpage.html">
+            <div class="movement_animation_logo_div">
+                <img class="logo_MOVE" src="img/logo_MOVE.png" alt="">
+                <img class="logo_M" src="img/logo_M.png" alt="">
+                <img class="logo_ENT" src="img/logo_ENT.png" alt="">
+            </div>
+            <img class="logo_SUPPORTt" src="img/logo_SUPPORTt.png" alt="">
+        </a>
+    </div>
+
+    <header>
+        <button id="burger_menu" class="burger_menu">
+            <div class="burger_div"></div>
+            <div class="burger_div"></div>
+            <div class="burger_last_div"></div>
+        </button>
+    </header>
+
+    <div id="burger_menu_bg" class="burger_menu_div_bg display_none">
+        <div class="burger_menu_div">
+            <div class="close_div">
+                <a class="profile_img" href="profilepage.html"><img src="img/user.png" alt="">Name</a>
+                <button id="close_button" class="burger_close"><img src="img/close.png" alt=""></button>
+            </div>
+            <ul class="burger_menu_ul">
+                <li><a href="stockpage.html">Stock map</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <h1>ADD NEW PRODUCT</h1>
+        
+
+            <form class="adding_new_product_form" action="">
+                <div class="flex_form">
+                    <div class="left_side side">
+                        <div class="input_file_bg">
+                            <input class="input_img" type="file" accept="image/*">
+                        </div>
+                    </div>
+                    <div class="right_side side">
+                        <input type="text" placeholder="Name">
+                        <input type="number" placeholder="Count">
+                        <input type="text" placeholder="Category">
+                        <textarea class="input_description" type="text" placeholder="Description"></textarea>
+                    </div>
+                </div>
+                <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

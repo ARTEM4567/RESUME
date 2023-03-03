@@ -1,0 +1,112 @@
+main{
+    padding-top: calc(7em + 20px);
+}
+
+input{
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 400px;
+    padding: 10px;
+    outline: none;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    border: solid rgb(235, 235, 235) 1px;
+}
+
+input:active{
+    transform: scale(1.01);
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.permission_div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+.permission_div input{
+    width: 18px;
+    height: 18px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.permissions_div{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid rgb(235, 235, 235) 1px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    display: inline-block;
+}
+
+.account_inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    border: solid rgb(235, 235, 235) 1px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
+
+.submit_div{
+    display: block;
+}
+
+@keyframes animation_child_div {
+    0%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+
+    100%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+}
+
+@media (max-width: 425px){
+    @keyframes animation_child_div {
+        0%{
+    
+        }
+    
+        50%{
+            top: 35%;
+            left: 50%;
+            width: 50%;
+            margin-left: -25%;
+        }
+    
+        100%{
+            top: 10px;
+            width: 200px;
+            right: 30px;
+        }
+    }
+}

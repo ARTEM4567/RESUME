@@ -1,0 +1,65 @@
+main{
+    padding-top: calc(7em + 20px);
+}
+
+.grid_product{
+    width: 300px;
+    margin: 10px;
+}
+
+.description{
+    width: 100%;
+}
+
+.level{
+    border: solid rgb(235, 235, 235) 1px;
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+.level div{
+    display: inline-block;
+}
+
+.shelf_name{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.edit{
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid rgb(235, 235, 235) 1px;
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.023));
+    transition: 0.3s;
+}
+
+.edit:hover{
+    transform: scale(1.03);
+}
+
+@keyframes animation_child_div {
+    0%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+
+    100%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+}

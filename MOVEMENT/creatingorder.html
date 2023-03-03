@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating order</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="creatingorder.css">
+    <script defer src="mainpage.js"></script>
+</head>
+<body>
+    <header>
+        <button id="burger_menu" class="burger_menu">
+            <div class="burger_div"></div>
+            <div class="burger_div"></div>
+            <div class="burger_last_div"></div>
+        </button>
+
+        <a class="a_logo" href="mainpage.html"><img src="img/logo_movement.svg" alt=""></a>
+    </header>
+
+    <div id="burger_menu_bg" class="burger_menu_div_bg display_none">
+        <div class="burger_menu_div">
+            <div class="close_div">
+                <a class="profile_img" href="profilepage.html"><img src="img/user.png" alt="">Name</a>
+                <button id="close_button" class="burger_close"><img src="img/close.png" alt=""></button>
+            </div>
+            <ul class="burger_menu_ul">
+                <li><a href="stockpage.html">Stock map</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <form class="top">
+                <h1>Creating new order</h1>
+                <input type="text" placeholder="Name">
+                <h2>Add product</h2>
+                <input type="text" placeholder="Name">
+                <h2>Product list:</h2>
+                <ul class="product_list">
+                    <li><a href="">Lada 125 expo <span>Count: 5</span></a></li>
+                    <li><a href="">Lada 125 expo <span>Count: 5</span></a></li>
+                    <li><a href="">Lada 125 expo <span>Count: 5</span></a></li>
+                </ul>
+                <h2>The time at which the order must be completed:</h2>
+                <input type="time">
+                <input type="date">
+                <div class="end">
+                    <button>Submit</button>
+                </div>
+            </form>
+            
+        </div>
+    </main>
+
+    
+
+    
+</body>
+</html>

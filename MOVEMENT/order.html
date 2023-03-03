@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="order.css">
+    <script defer src="mainpage.js"></script>
+    <script defer src="order.js"></script>
+</head>
+<body>
+    <header>
+        <button id="burger_menu" class="burger_menu">
+            <div class="burger_div"></div>
+            <div class="burger_div"></div>
+            <div class="burger_last_div"></div>
+        </button>
+
+        <a class="a_logo" href="mainpage.html"><img src="img/logo_movement.svg" alt=""></a>
+    </header>
+
+    <div id="burger_menu_bg" class="burger_menu_div_bg display_none">
+        <div class="burger_menu_div">
+            <div class="close_div">
+                <a class="profile_img" href="profilepage.html"><img src="img/user.png" alt="">Name</a>
+                <button id="close_button" class="burger_close"><img src="img/close.png" alt=""></button>
+            </div>
+            <ul class="burger_menu_ul">
+                <li><a href="stockpage.html">Stock map</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="top">
+            <h1>Zabka</h1>
+            <button id="changeButton" class="change_button"></button>
+        </div>
+
+        <div class="grid_products">
+                
+            <div class="grid_product">
+                <a class="product_link" href="productpage.html">
+                    <div class="description">
+                        <h2>LADA EXPO 100</h2>
+                        <p>Count: <span id="stock">20</span></p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="linear_products display_none">
+            <a href="">
+                <h2>LADA EXPO 100</h2>
+                <p>Count: <span id="stock">20</span></p>
+            </a>
+            <a href="">
+                <h2>LADA EXPO 100</h2>
+                <p>Count: <span id="stock">20</span></p>
+            </a>
+            <a href="">
+                <h2>LADA EXPO 100</h2>
+                <p>Count: <span id="stock">20</span></p>
+            </a>
+        </div>
+
+        <h3>Was created: 01.01.2022 13:37</h3>
+        <h3>Must be done: 01.01.2022 13:37</h3>
+    </div>
+
+
+
+    
+</body>
+</html>

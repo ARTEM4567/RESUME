@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.top{
+    background-color: rgb(113, 166, 236);
+    color: white;
+    border-radius: 10px;
+}
+
+.top_city_time{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+h2{
+    font-weight: 300;
+}
+
+h3{
+    font-weight: 300;
+}
+
+.top_weather_info{
+    text-align: center;
+}
+
+.top_speed_info{
+    margin: 20px 10px 0px 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 2px rgb(113, 166, 236);
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: .4s;
+}
+
+.bottom_div:hover{
+    background-color: rgba(113, 166, 236, 0.294);
+}
+
+h4{
+    max-width: 100px;
+}
+
+.bottom{
+    border-radius: 10px;
+}

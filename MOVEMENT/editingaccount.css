@@ -1,0 +1,133 @@
+main{
+    padding-top: calc(7em + 20px);
+}
+
+input{
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 400px;
+    padding: 10px;
+    outline: none;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    border: solid rgb(235, 235, 235) 1px;
+}
+
+input:active{
+    transform: scale(1.01);
+}
+
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.permission_div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+.permission_div input{
+    width: 18px;
+    height: 18px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.permissions_div{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid rgb(235, 235, 235) 1px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    display: inline-block;
+}
+
+.submit {
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    border: solid rgb(235, 235, 235) 1px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-image: url(img/user.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.account_name_div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.submit_div{
+    display: block;
+}
+
+.h1 {
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+@keyframes animation_child_div {
+    0%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+
+    100%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+}
+
+@media (max-width: 425px){
+    @keyframes animation_child_div {
+        0%{
+    
+        }
+    
+        50%{
+            top: 35%;
+            left: 50%;
+            width: 50%;
+            margin-left: -25%;
+        }
+    
+        100%{
+            top: 10px;
+            width: 200px;
+            right: 30px;
+        }
+    }
+}

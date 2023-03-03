@@ -1,0 +1,21 @@
+.noip-form-pay {
+    margin: 10px auto;
+    max-width:95%;
+    box-sizing:border-box;
+    padding:40px;
+    border-radius:5px; 
+    background:RGBA(255,255,255,1);
+
+}
+.noip-form-pay label {
+    margin: 10px;
+    vertical-align: middle;
+    position: relative;
+
+
+}
+.noip-form-pay label input {
+    position: relative;
+    top:3px;
+    margin-right: 5px;
+}

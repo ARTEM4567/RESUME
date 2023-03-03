@@ -1,0 +1,90 @@
+.a_logo img{
+    width: 300px;
+}
+
+body header{
+    background-color: rgba(255, 255, 255, 0.819);;
+}
+
+li{
+    list-style-type: none;
+}
+
+.a_logo{
+    display: inline-block;
+    margin-left: calc(50% - 220px);
+}
+
+body{
+    padding-top: 7em;
+}
+
+.top{
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.change_button{
+    width: 50px;
+    height: 50px;
+    background-image: url(img/menu.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.change_button1{
+    background-image: url(img/grid.png);
+}
+
+.grid_products{
+    background-color: white;
+    border-radius: 5px;
+    border: solid rgb(235, 235, 235) 1px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    padding: 15px;
+}
+
+.linear_products{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid rgb(235, 235, 235) 1px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.07));
+    padding: 15px;
+}
+
+.linear_products h2{
+    font-size: 25px;
+}
+
+.linear_products p{
+    font-size: 25px;
+}
+
+.linear_products a{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid rgb(200, 200, 200) 1px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.display_none{
+    display: none;
+}
+
+h3{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+}

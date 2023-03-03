@@ -1,0 +1,49 @@
+.search_form{
+    margin-top: 0;
+}
+
+main{
+    padding-top: calc(7em + 20px);
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+@keyframes animation_child_div {
+    0%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+
+    100%{
+        top: 10px;
+        width: 300px;
+        margin-left: -150px;
+        left: 50%;
+    }
+}
+
+@media (max-width: 425px){
+    @keyframes animation_child_div {
+        0%{
+    
+        }
+    
+        50%{
+            top: 35%;
+            left: 50%;
+            width: 50%;
+            margin-left: -25%;
+        }
+    
+        100%{
+            top: 10px;
+            width: 200px;
+            right: 30px;
+        }
+    }
+}

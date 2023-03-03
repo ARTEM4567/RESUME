@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FFFAF3;
+}
+
+.container{
+    max-width: 1406px;
+    margin: auto;
+}
+
+header{
+    display: inline-block;
+    min-width: 470px;
+    border-bottom: 1px solid #C08D5D;
+    padding-top: 59px;
+    padding-bottom: 44px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #3F4042;
+}
+
+nav{
+    display: inline-block;
+    text-align: left;
+}
+
+nav img{
+    padding-right: 32px;
+    vertical-align: middle;
+}
+
+nav img::before{
+    content: url(img/logo2.svg);
+}
+
+nav a{
+    padding-right: 53px;
+}
+
+main{
+    margin-top: 148px;
+}
+
+h1{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 81px;
+    color:#3F4042;
+    margin-bottom: 48px;
+}
+
+span{
+    display: block;
+    font-size: 50px;
+    line-height: 58px;
+}
+
+span::after{
+    content: url(img/logo1.svg);
+}
+
+h1::after{
+    content: url(img/Vector.svg);
+    display: block;
+    width: 165px;
+}
+
+p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 147.6%;
+    color: #3F4042;
+}
+
+.text1{
+    max-width: 535px;
+}
+
+.move-to{
+    margin-top: 72px;
+    display: inline-block;
+    border: solid 2px #C08D5D;
+    padding-left: 26px;
+    line-height: 64px;
+    vertical-align: middle;
+    height: 64px; 
+    font-family: Open Sans;
+    font-size: 20px;
+}
+
+.move-to::after{
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: #C08D5D;
+    background-image: url(img/Vector2.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 26px;
+    margin-bottom: 4px;
+    background-position: 50%;
+}
+
+body{
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.link1{
+    color: #C08D5D;
+}
+
+.mouse{
+    margin-top: 63px;
+    width: 33.47px;
+    margin-bottom: 69px;
+}
+
+.div_mouse{
+    text-align: center;
+}
