@@ -1,2 +1,0 @@
-Easy WP SMTP debug log file
-
